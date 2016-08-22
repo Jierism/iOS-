@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37B70EF81D517EB400C747CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B70EF71D517EB400C747CB /* main.m */; };
+		37B70EFB1D517EB400C747CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B70EFA1D517EB400C747CB /* AppDelegate.m */; };
+		37B70EFE1D517EB400C747CB /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B70EFD1D517EB400C747CB /* GameScene.m */; };
+		37B70F001D517EB400C747CB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 37B70EFF1D517EB400C747CB /* GameScene.sks */; };
+		37B70F031D517EB400C747CB /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B70F021D517EB400C747CB /* GameViewController.m */; };
+		37B70F061D517EB400C747CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B70F041D517EB400C747CB /* Main.storyboard */; };
+		37B70F081D517EB400C747CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37B70F071D517EB400C747CB /* Assets.xcassets */; };
+		37B70F0B1D517EB400C747CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B70F091D517EB400C747CB /* LaunchScreen.storyboard */; };
+		37B70F161D517EB500C747CB /* ResizeModesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B70F151D517EB500C747CB /* ResizeModesTests.m */; };
+		37B70F211D517EB500C747CB /* ResizeModesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B70F201D517EB500C747CB /* ResizeModesUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37B70F121D517EB500C747CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37B70EEB1D517EB400C747CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37B70EF21D517EB400C747CB;
+			remoteInfo = ResizeModes;
+		};
+		37B70F1D1D517EB500C747CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37B70EEB1D517EB400C747CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37B70EF21D517EB400C747CB;
+			remoteInfo = ResizeModes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37B70EF31D517EB400C747CB /* ResizeModes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizeModes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B70EF71D517EB400C747CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37B70EF91D517EB400C747CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37B70EFA1D517EB400C747CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37B70EFC1D517EB400C747CB /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		37B70EFD1D517EB400C747CB /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		37B70EFF1D517EB400C747CB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		37B70F011D517EB400C747CB /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		37B70F021D517EB400C747CB /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		37B70F051D517EB400C747CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37B70F071D517EB400C747CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37B70F0A1D517EB400C747CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37B70F0C1D517EB500C747CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37B70F111D517EB500C747CB /* ResizeModesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResizeModesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B70F151D517EB500C747CB /* ResizeModesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResizeModesTests.m; sourceTree = "<group>"; };
+		37B70F171D517EB500C747CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37B70F1C1D517EB500C747CB /* ResizeModesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResizeModesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B70F201D517EB500C747CB /* ResizeModesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResizeModesUITests.m; sourceTree = "<group>"; };
+		37B70F221D517EB500C747CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37B70EF01D517EB400C747CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B70F0E1D517EB500C747CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B70F191D517EB500C747CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37B70EEA1D517EB400C747CB = {
+			isa = PBXGroup;
+			children = (
+				37B70EF51D517EB400C747CB /* ResizeModes */,
+				37B70F141D517EB500C747CB /* ResizeModesTests */,
+				37B70F1F1D517EB500C747CB /* ResizeModesUITests */,
+				37B70EF41D517EB400C747CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37B70EF41D517EB400C747CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37B70EF31D517EB400C747CB /* ResizeModes.app */,
+				37B70F111D517EB500C747CB /* ResizeModesTests.xctest */,
+				37B70F1C1D517EB500C747CB /* ResizeModesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37B70EF51D517EB400C747CB /* ResizeModes */ = {
+			isa = PBXGroup;
+			children = (
+				37B70EF91D517EB400C747CB /* AppDelegate.h */,
+				37B70EFA1D517EB400C747CB /* AppDelegate.m */,
+				37B70EFC1D517EB400C747CB /* GameScene.h */,
+				37B70EFD1D517EB400C747CB /* GameScene.m */,
+				37B70EFF1D517EB400C747CB /* GameScene.sks */,
+				37B70F011D517EB400C747CB /* GameViewController.h */,
+				37B70F021D517EB400C747CB /* GameViewController.m */,
+				37B70F041D517EB400C747CB /* Main.storyboard */,
+				37B70F071D517EB400C747CB /* Assets.xcassets */,
+				37B70F091D517EB400C747CB /* LaunchScreen.storyboard */,
+				37B70F0C1D517EB500C747CB /* Info.plist */,
+				37B70EF61D517EB400C747CB /* Supporting Files */,
+			);
+			path = ResizeModes;
+			sourceTree = "<group>";
+		};
+		37B70EF61D517EB400C747CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37B70EF71D517EB400C747CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37B70F141D517EB500C747CB /* ResizeModesTests */ = {
+			isa = PBXGroup;
+			children = (
+				37B70F151D517EB500C747CB /* ResizeModesTests.m */,
+				37B70F171D517EB500C747CB /* Info.plist */,
+			);
+			path = ResizeModesTests;
+			sourceTree = "<group>";
+		};
+		37B70F1F1D517EB500C747CB /* ResizeModesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37B70F201D517EB500C747CB /* ResizeModesUITests.m */,
+				37B70F221D517EB500C747CB /* Info.plist */,
+			);
+			path = ResizeModesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37B70EF21D517EB400C747CB /* ResizeModes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B70F251D517EB500C747CB /* Build configuration list for PBXNativeTarget "ResizeModes" */;
+			buildPhases = (
+				37B70EEF1D517EB400C747CB /* Sources */,
+				37B70EF01D517EB400C747CB /* Frameworks */,
+				37B70EF11D517EB400C747CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResizeModes;
+			productName = ResizeModes;
+			productReference = 37B70EF31D517EB400C747CB /* ResizeModes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37B70F101D517EB500C747CB /* ResizeModesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B70F281D517EB500C747CB /* Build configuration list for PBXNativeTarget "ResizeModesTests" */;
+			buildPhases = (
+				37B70F0D1D517EB500C747CB /* Sources */,
+				37B70F0E1D517EB500C747CB /* Frameworks */,
+				37B70F0F1D517EB500C747CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37B70F131D517EB500C747CB /* PBXTargetDependency */,
+			);
+			name = ResizeModesTests;
+			productName = ResizeModesTests;
+			productReference = 37B70F111D517EB500C747CB /* ResizeModesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37B70F1B1D517EB500C747CB /* ResizeModesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B70F2B1D517EB500C747CB /* Build configuration list for PBXNativeTarget "ResizeModesUITests" */;
+			buildPhases = (
+				37B70F181D517EB500C747CB /* Sources */,
+				37B70F191D517EB500C747CB /* Frameworks */,
+				37B70F1A1D517EB500C747CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37B70F1E1D517EB500C747CB /* PBXTargetDependency */,
+			);
+			name = ResizeModesUITests;
+			productName = ResizeModesUITests;
+			productReference = 37B70F1C1D517EB500C747CB /* ResizeModesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37B70EEB1D517EB400C747CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = " Jierism";
+				TargetAttributes = {
+					37B70EF21D517EB400C747CB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8XKXG2G4J6;
+					};
+					37B70F101D517EB500C747CB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8XKXG2G4J6;
+						TestTargetID = 37B70EF21D517EB400C747CB;
+					};
+					37B70F1B1D517EB500C747CB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8XKXG2G4J6;
+						TestTargetID = 37B70EF21D517EB400C747CB;
+					};
+				};
+			};
+			buildConfigurationList = 37B70EEE1D517EB400C747CB /* Build configuration list for PBXProject "ResizeModes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37B70EEA1D517EB400C747CB;
+			productRefGroup = 37B70EF41D517EB400C747CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37B70EF21D517EB400C747CB /* ResizeModes */,
+				37B70F101D517EB500C747CB /* ResizeModesTests */,
+				37B70F1B1D517EB500C747CB /* ResizeModesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37B70EF11D517EB400C747CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B70F001D517EB400C747CB /* GameScene.sks in Resources */,
+				37B70F0B1D517EB400C747CB /* LaunchScreen.storyboard in Resources */,
+				37B70F081D517EB400C747CB /* Assets.xcassets in Resources */,
+				37B70F061D517EB400C747CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B70F0F1D517EB500C747CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B70F1A1D517EB500C747CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37B70EEF1D517EB400C747CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B70F031D517EB400C747CB /* GameViewController.m in Sources */,
+				37B70EFB1D517EB400C747CB /* AppDelegate.m in Sources */,
+				37B70EFE1D517EB400C747CB /* GameScene.m in Sources */,
+				37B70EF81D517EB400C747CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B70F0D1D517EB500C747CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B70F161D517EB500C747CB /* ResizeModesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B70F181D517EB500C747CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B70F211D517EB500C747CB /* ResizeModesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37B70F131D517EB500C747CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37B70EF21D517EB400C747CB /* ResizeModes */;
+			targetProxy = 37B70F121D517EB500C747CB /* PBXContainerItemProxy */;
+		};
+		37B70F1E1D517EB500C747CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37B70EF21D517EB400C747CB /* ResizeModes */;
+			targetProxy = 37B70F1D1D517EB500C747CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37B70F041D517EB400C747CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37B70F051D517EB400C747CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37B70F091D517EB400C747CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37B70F0A1D517EB400C747CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37B70F231D517EB500C747CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37B70F241D517EB500C747CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37B70F261D517EB500C747CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ResizeModes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jie.ResizeModes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37B70F271D517EB500C747CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ResizeModes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jie.ResizeModes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		37B70F291D517EB500C747CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = ResizeModesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jie.ResizeModesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResizeModes.app/ResizeModes";
+			};
+			name = Debug;
+		};
+		37B70F2A1D517EB500C747CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ResizeModesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jie.ResizeModesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResizeModes.app/ResizeModes";
+			};
+			name = Release;
+		};
+		37B70F2C1D517EB500C747CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = ResizeModesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jie.ResizeModesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ResizeModes;
+			};
+			name = Debug;
+		};
+		37B70F2D1D517EB500C747CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ResizeModesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jie.ResizeModesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ResizeModes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37B70EEE1D517EB400C747CB /* Build configuration list for PBXProject "ResizeModes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B70F231D517EB500C747CB /* Debug */,
+				37B70F241D517EB500C747CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37B70F251D517EB500C747CB /* Build configuration list for PBXNativeTarget "ResizeModes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B70F261D517EB500C747CB /* Debug */,
+				37B70F271D517EB500C747CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		37B70F281D517EB500C747CB /* Build configuration list for PBXNativeTarget "ResizeModesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B70F291D517EB500C747CB /* Debug */,
+				37B70F2A1D517EB500C747CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		37B70F2B1D517EB500C747CB /* Build configuration list for PBXNativeTarget "ResizeModesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B70F2C1D517EB500C747CB /* Debug */,
+				37B70F2D1D517EB500C747CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37B70EEB1D517EB400C747CB /* Project object */;
+}

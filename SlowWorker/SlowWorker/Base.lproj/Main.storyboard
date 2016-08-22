@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Vkv-9r-97I">
+                                <rect key="frame" x="0.0" y="86" width="320" height="482"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMx-G5-x6K">
+                                <rect key="frame" x="113" y="43" width="95" height="30"/>
+                                <state key="normal" title="Start Working"/>
+                                <connections>
+                                    <action selector="doWork:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b4g-So-azO"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="oGg-JG-fSx">
+                                <rect key="frame" x="210" y="48" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Vkv-9r-97I" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="MAo-tS-yej"/>
+                            <constraint firstItem="dMx-G5-x6K" firstAttribute="centerX" secondItem="Vkv-9r-97I" secondAttribute="centerX" id="R2u-Vx-R13"/>
+                            <constraint firstItem="Vkv-9r-97I" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="leB-Zv-VRN"/>
+                            <constraint firstItem="dMx-G5-x6K" firstAttribute="centerY" secondItem="oGg-JG-fSx" secondAttribute="centerY" id="p8F-fQ-ska"/>
+                            <constraint firstItem="Vkv-9r-97I" firstAttribute="top" secondItem="dMx-G5-x6K" secondAttribute="bottom" constant="13" id="qGy-Ut-kYS"/>
+                            <constraint firstAttribute="trailing" secondItem="Vkv-9r-97I" secondAttribute="trailing" id="rqZ-Mz-vOH"/>
+                            <constraint firstItem="dMx-G5-x6K" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="23" id="wZI-M2-rdw"/>
+                            <constraint firstItem="oGg-JG-fSx" firstAttribute="leading" secondItem="dMx-G5-x6K" secondAttribute="trailing" constant="2" id="xi9-gw-DSz"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="resultsTextView" destination="Vkv-9r-97I" id="l0Y-S7-dOn"/>
+                        <outlet property="spinner" destination="oGg-JG-fSx" id="hU9-M6-3HX"/>
+                        <outlet property="startButton" destination="dMx-G5-x6K" id="Gj8-nZ-0Qe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="314"/>
+        </scene>
+    </scenes>
+</document>
